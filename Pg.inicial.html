@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <title>Estudos</title>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     </head>
     <body>
@@ -25,7 +26,7 @@
                         <div class="sobre">
                             <p class="sobre-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore commodi dolore reprehenderit similique natus nobis! Quas dicta vel exercitationem facere officiis excepturi maiores obcaecati nam fuga, totam, molestias nemo recusandae?</p>
                         </div>
-                        <img src=""> <!-- Colocar uma foto da Ester-->
+                        <img class="ester" src="assets/img/ester.jpeg"> <!-- Colocar uma foto da Ester-->
                 </section>
 
 
@@ -33,36 +34,37 @@
                     <h2>Obras Primas</h2>
                         <div class="container">
                             <div class="row align-center">
-                                <div class="col-l-4">
+                                <div class="col-l-4" data-aos="fade-right" data-aos-duration="1000">
                                     <div class="imgs">
                                         <img class="product-img" src="assets/img/img3.jpeg"  alt="">
+                                        <div data-aos="fade-right"></div>
                                     </div>
                                 </div>
-                                <div class="col-l-8">
+                                <div class="col-l-8"data-aos="fade-right" data-aos-duration="1000">
                                     <div class="pd">
                                         <p class="product-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius laudantium velit ullam quam, nam asperiores necessitatibus quos quibusdam, error in 
                                     </div>
                                 </div>
                             
-                                <div class="col-l-8">
+                                <div class="col-l-8" data-aos="fade-left" data-aos-duration="1000">
                                     <div class="pd">
                                         <p class="product-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius laudantium velit ullam quam, nam asperiores necessitatibus quos quibusdam, error in 
                                     </div>
                                 </div>
-                                <div class="col-l-4">
+                                <div class="col-l-4" data-aos="fade-left" data-aos-duration="1000">
                                     <div class="imgs">
-                                        <img class="product-img" src="assets/img/img3.jpeg" alt="">
+                                        <img class="product-img" src="assets/img/morango.jpeg" alt="">
                                     </div>
                                 </div>
-                                <div class="col-l-4">
+                                <div class="col-l-4" data-aos="fade-right" data-aos-duration="1000">
                                     <div class="imgs">
-                                        <img class="product-img" src="assets/img/img3.jpeg" alt="">
+                                        <img class="product-img" src="assets/img/Panetone.jpeg" alt="">
                                     </div>
                                 </div>
-                                <div class="col-l-8">
+                                <div class="col-l-8" data-aos="fade-right" data-aos-duration="1000">
                                     <div class="pd">
                                         <p class="product-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius laudantium velit ullam
-                                            quam, nam asperiores necessitatibus quos quibusdam, error in
+                                        quam, nam asperiores necessitatibus quos quibusdam, error in
                                     </div>
                                 </div>
                             </div>
@@ -71,9 +73,12 @@
                 </section>
         </main>
         <script src="https://unpkg.com/feather-icons"></script>
+        <script>            
+        feather.replace();
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
-            feather.replace();
-            AOS.init();
+        AOS.init();
         </script>
     </body>
 </html>

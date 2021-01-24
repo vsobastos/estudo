@@ -27,7 +27,6 @@ h2 {
     text-align: center;
 }
 
-
 /* Configuração do menu */
 
 .header{
@@ -88,6 +87,10 @@ section.middle {
 
 p.sobre {
     padding: 0 130px;
+}
+
+.ester{
+    width: 500px;
 }
 
 /* Configuração down */
