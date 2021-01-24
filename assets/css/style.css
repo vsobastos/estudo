@@ -89,20 +89,16 @@ p.sobre {
     padding: 0 130px;
 }
 
-.ester{
-    width: 500px;
-}
-
 /* Configuração down */
 
 .container{
     margin: 0 auto;
-    max-width: 1170px;
 }
 
 .row{
     display: flex;    
     flex-wrap: wrap;
+    margin: 0 50px;
 }
 
 .align-center{
