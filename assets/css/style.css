@@ -27,6 +27,12 @@ h2 {
     text-align: center;
 }
 
+.bg{
+    position: fixed;
+    z-index: -2;
+    
+}
+
 /* Configuração do menu */
 
 .header{
