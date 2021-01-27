@@ -113,10 +113,15 @@ p.sobre {
 
 .col-l-4{
     width: 33.3333333333%;
+    
 }
 
 .col-l-8{
-    width: 66.66666%
+    width: 66.66666%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 100px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .products {
@@ -129,6 +134,7 @@ p.sobre {
     width: 400px;
     height: 400px;
     object-fit: cover;
+    
 }
 
 
