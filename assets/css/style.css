@@ -44,6 +44,14 @@ ul {
     display: inline-block;
 }
 
+section.historia__content {
+    margin-top: 40px;
+}
+
+section.contact__content {
+    margin-top: 40px;
+}
+
 .historia__list {
     display: inline-flex;
     padding: 0 24px;
@@ -63,6 +71,32 @@ ul {
     object-fit: cover;
 }
 
+.img--right {
+    margin-right: 16px;
+}
+
+.img--left {
+    margin-left: 16px;
+}
+
+
+.contact__itens.item--left {
+    margin: 0px 32px;
+}
+
+li.contact__itens.item--right {
+    margin: 0 -16px;
+}
+
+.contact__list {
+    display: inline-flex;
+}
+
+.contact__img {
+    width: 431px;
+    height: 431px;
+    object-fit: cover;
+}
 
 @media (max-width: 991px){
     width: 100%;
