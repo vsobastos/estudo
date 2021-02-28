@@ -7,6 +7,7 @@ body, html {
 
 body {
     display: flex;
+    max-width: 1300px;
 }
 
 * {
@@ -18,13 +19,16 @@ ul {
 }
 
 
+/* Menu Config */
+
+
 .menu__default {
     text-align: center;
 }
 
 .home__principal__banner {
     max-width: 100%;
-    width: 1298px;
+    width: 100%;
     height: 500px;
     object-fit: cover;
 }
@@ -44,12 +48,18 @@ ul {
     display: inline-block;
 }
 
+/* Primeira Section config */
+
 section.historia__content {
     margin-top: 40px;
 }
 
 section.contact__content {
     margin-top: 40px;
+}
+
+.historia__content {
+    margin-top: 32px;
 }
 
 .historia__list {
@@ -61,42 +71,100 @@ section.contact__content {
     text-align: center;
 }
 
-.historia__itens--content {
+.historia__itens_content {
     border: solid 1.5px;
+    margin-bottom: 22px;
 }
 
 .hitoria__img {
-    width: 396px;
-    height: 396px;
+    width: 416px;
+    height: auto;
     object-fit: cover;
 }
 
-.img--right {
+.img_right {
     margin-right: 16px;
+    margin-top: -20px;
 }
 
-.img--left {
+.img_left {
     margin-left: 16px;
+    margin-top: -20px;
 }
 
+/* Segunda Section config */
 
-.contact__itens.item--left {
-    margin: 0px 32px;
+.contact__itens.item_left {
+    width: 340px;
+    border: solid 1.5px;
+    margin-left: 16px;
+    margin-bottom: 2px;
 }
 
-li.contact__itens.item--right {
-    margin: 0 -16px;
+li.contact__itens.item_right {
+    width: 340px;
+    border: solid 1.5px;
+    margin-right: 16px;
+    margin-bottom: 5px;
 }
 
 .contact__list {
     display: inline-flex;
+    padding: 0 24px;
+
 }
 
 .contact__img {
-    width: 431px;
-    height: 431px;
-    object-fit: cover;
+    width: 416px;
+    height: auto;
 }
+
+.contact__paragraph-top {
+    margin-bottom: 0;
+}
+
+.contact__paragraph {
+    margin: 0;
+}
+
+/* Terceira Section config */
+
+.down__content {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.down__title_maior {
+    margin-top: 0;
+}
+
+.down__title_menor {
+    margin-bottom: 0;
+}
+
+.form__list {
+margin-left: 170px;
+}
+
+.form_caption {
+    display: block;
+}
+
+
+input#nome {
+    width: 850px;
+}
+
+input#email {
+    width: 850px;
+}
+
+textarea#msg {
+    width: 850px;
+}
+
+
+/* Mobile Config */
 
 @media (max-width: 991px){
     width: 100%;
