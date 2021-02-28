@@ -1,13 +1,15 @@
 /* Configurações Padrões */
-body, html {
+body,
+html {
     padding: 0;
     margin: 0;
-    font-family: "Roboto",sans-serif ;
+    font-family: "Cookie", sans-serif;
+    color: #c19d56;
 }
 
 body {
     display: flex;
-    max-width: 1300px;
+    max-width: 1298px;
 }
 
 * {
@@ -19,6 +21,13 @@ ul {
 }
 
 
+.container__default {
+    margin: 0 10px;
+}
+
+
+
+
 /* Menu Config */
 
 
@@ -28,39 +37,48 @@ ul {
 
 .home__principal__banner {
     max-width: 100%;
-    width: 100%;
+    width: 1280px;
     height: 500px;
     object-fit: cover;
+    margin-left: 13px;
 }
 
-.container__default {
-    margin: 0 25px;
+.banner__content {
+    margin: 0 10px;
 }
+
+
 .menu__link {
     text-decoration: none;
     padding: 0 10px;
+    color: #c19d56;
 }
+
 .logo__header {
     max-width: 20%;
 }
 
 .menu__itens {
     display: inline-block;
+    font-size: 32px;
 }
+
+
+
+
+
 
 /* Primeira Section config */
 
-section.historia__content {
-    margin-top: 40px;
-}
-
-section.contact__content {
-    margin-top: 40px;
-}
-
 .historia__content {
-    margin-top: 32px;
+    margin-top: 40px;
+    width: 100%;
 }
+
+.contact__content {
+    margin-top: 40px;
+}
+
 
 .historia__list {
     display: inline-flex;
@@ -69,54 +87,77 @@ section.contact__content {
 
 .historia__title {
     text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
 }
 
 .historia__itens_content {
     border: solid 1.5px;
     margin-bottom: 22px;
+    border-color: #c19d56;
+    width: 416px;
 }
 
 .hitoria__img {
     width: 416px;
-    height: auto;
+    height: 350px;
     object-fit: cover;
 }
 
 .img_right {
-    margin-right: 16px;
+    margin-left: 16px;
     margin-top: -20px;
 }
 
 .img_left {
-    margin-left: 16px;
+    margin-right: 16px;
     margin-top: -20px;
 }
 
+
+
+
 /* Segunda Section config */
 
-.contact__itens.item_left {
-    width: 340px;
-    border: solid 1.5px;
-    margin-left: 16px;
-    margin-bottom: 2px;
+
+.contact__itens {
+    width: 416px;
 }
 
-li.contact__itens.item_right {
-    width: 340px;
-    border: solid 1.5px;
+.contact__content {
+    margin-top: 40px;
+}
+
+.item_left {
+    height: 350px;
+    border: solid 1px;
     margin-right: 16px;
+    border-color: #c19d56;
+
+}
+
+.item_right {
+    border: solid 1.5px;
+    margin-left: 16px;
     margin-bottom: 5px;
+    border-color: #c19d56;
 }
 
 .contact__list {
     display: inline-flex;
     padding: 0 24px;
+}
 
+.contact__title {
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .contact__img {
     width: 416px;
-    height: auto;
+    height: 350px;
+    object-fit: cover;
 }
 
 .contact__paragraph-top {
@@ -127,6 +168,9 @@ li.contact__itens.item_right {
     margin: 0;
 }
 
+
+
+
 /* Terceira Section config */
 
 .down__content {
@@ -136,14 +180,16 @@ li.contact__itens.item_right {
 
 .down__title_maior {
     margin-top: 0;
+    font-size: 72px;
 }
 
 .down__title_menor {
     margin-bottom: 0;
+    font-size: 32px;
 }
 
 .form__list {
-margin-left: 170px;
+    margin-left: 170px;
 }
 
 .form_caption {
@@ -151,21 +197,39 @@ margin-left: 170px;
 }
 
 
-input#nome {
+#nome {
     width: 850px;
+    border-color: #c19d56;
+    border-radius: 4px;
 }
 
-input#email {
+#email {
     width: 850px;
+    border-color: #c19d56;
+    border-radius: 4px;
 }
 
-textarea#msg {
+#msg {
     width: 850px;
+    border-color: #c19d56;
+    border-radius: 4px;
 }
 
 
 /* Mobile Config */
 
-@media (max-width: 991px){
-    width: 100%;
+@media (max-width: 991px) {
+    .home__principal__banner {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .logo__header {
+        max-width: 50%;
+    }
+
+    .menu__itens {
+        display: inline-block;
+        font-size: 64px;
+    }
 }
